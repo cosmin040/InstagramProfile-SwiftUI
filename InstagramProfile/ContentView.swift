@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct SecondView: View {
+struct FirstView: View {
     var body: some View {
         Color.green
     }
 }
 
-struct FirstView: View {
+struct SecondView: View {
     
     @Environment(\.colorScheme) var colorScheme
     @State private var selectedLogo = "circle.grid.3x3"
